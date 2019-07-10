@@ -1,0 +1,33 @@
+
+.navbar{
+    background: #001B48;
+}
+
+.intro {
+    color: #ffff;
+    text-align: center;
+    background: url("../assets/background.svg") no-repeat bottom center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+#sneak-peak {
+    color: #ffff;
+    text-align: center;
+    background: url("../assets/sneak-peak-background.svg") no-repeat bottom center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.intro h1 {
+    margin-top:0px;
+}
+.navbar {
+    margin-bottom: 0px !important;
+}
