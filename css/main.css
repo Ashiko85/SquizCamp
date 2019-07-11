@@ -11,9 +11,8 @@
     height: 100vh;
 }
 #sneak-peak {
-    color: #ffff;
     text-align: center;
-    background: url("../assets/sneak-peak-background.svg") no-repeat bottom center fixed;
+    background: url("../assets/wave.svg")  no-repeat bottom center fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -28,6 +27,35 @@
 .intro h1 {
     margin-top:0px;
 }
-.navbar {
-    margin-bottom: 0px !important;
+
+.btn {
+    margin:5px;
+    radius: 0;
 }
+
+.btn-signup{
+    color: #fff;
+    background-color: #001B48;
+    border-color: #001B48;
+    padding: 5px 40px 5px 40px;;
+}
+
+.btn-lernmore{
+    color: #001B48;
+    background-color: #ffff;
+    border-color: #001B48;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+ Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+ Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+ Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */

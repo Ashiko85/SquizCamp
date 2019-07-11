@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13865"
    onload="var src; if (document.documentURI) src = document.documentURI; else if (this.getSrc) src = this.getSrc(); else src = document.location.href + ''; try {parent.preload.load(src);}catch(e) {}"
-   sodipodi:docname="menu-background.svg">
+   sodipodi:docname="sneak-peak-background.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -34,12 +34,12 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1600"
-     inkscape:window-height="837"
+     inkscape:window-height="837"/>
+  <metadata
+          id="metadata7">
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata7">
+     inkscape:window-maximized="1"
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -55,9 +55,9 @@
      inkscape:groupmode="layer"
      id="layer1">
     <image
-       y="1.4884121"
-       x="-2.5242684"
-       id="image3666"
+       y="-1431.8075"
+       x="-762.52435"
+       id="image18"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYAAAAKACAIAAAAaTTh1AAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
 nOy9S5PkSHLnqWqAu4fHKysrK7uK3TXsncOO7MjyvDfe9vtfVlb2sCLL15DDru7qrkdWRka4A7YH
 AA57m9oDL3dTIZXJqAiHQu0PtR/MFHCEwfC//Z/4x/8DihUrVmwW4//xf7GlYyhWrNjtWilAxYoV
@@ -596,9 +596,8 @@ BTudTrNfBnhGy5L/ARvHISpq9MUQAAAAAElFTkSuQmCC
 "
        style="image-rendering:optimizeSpeed"
        preserveAspectRatio="none"
-       height="1064.6047"
-       width="750.76282"
-       inkscape:transform-center-x="111.87584"
-       inkscape:transform-center-y="-597.76815" />
+       height="1067.4619"
+       width="773.62"
+       transform="scale(-1,-1)" />
   </g>
 </svg>
