@@ -23,14 +23,27 @@ body img {
    margin: 0 35px 0 35px;
  }
 ::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.navbar{
+    background: #001B48;
 }
 
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+.intro {
+    color: #ffff;
+    text-align: center;
+    background: url("../assets/background.svg") no-repeat bottom center fixed;
+    background-size: cover;
+    height: 100vh;
 }
+#sneak-peak {
+    text-align: center;
+    background: url("../assets/wave.svg")  no-repeat bottom center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
 
 
 
@@ -124,3 +137,48 @@ color: #ccc;
   background-color: #001B48;
   color: #ccc; 
 }
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.intro h1 {
+    margin-top:0px;
+}
+
+.btn {
+    margin:5px;
+    radius: 0;
+}
+
+.btn-signup{
+    color: #fff;
+    background-color: #001B48;
+    border-color: #001B48;
+    padding: 5px 40px 5px 40px;;
+}
+
+.btn-lernmore{
+    color: #001B48;
+    background-color: #ffff;
+    border-color: #001B48;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+ Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+ Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+ Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+

@@ -3,48 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>Squiz Camp</title>
 </head>
 <body>
 <header>
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target="#bs-tapp-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+
+    <nav class="navbar fixed-top  navbar-dark ">
+        <a class="navbar-brand" href="#">Squiz Camp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-brand logo">
-            <div class="logo"><img src="#" width="40" height="40"><a href="#sneak-peak"> Squiz Camp</a>
-            </div>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li><a href="#sneak-peak">Czego się nauczymy?</a></li>
+                <li><a href="#for-who">Kogo szukamy?</a></li>
+                <li><a href="#testimonials">Opinie absolwentów</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
         </div>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-tapp-navbar-collapse-1">
+    </nav>
 
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="sneak-peak">Czego się nauczymy?</a></li>
-            <li><a href="for-who">Kogo szukamy?</a></li>
-            <li><a href="testimonials">Opinie absolwentów</a></li>
-            <li><a href="contact">Kontakt</a></li>
-
-        </ul>
-    </div>
-</nav>
 </header>
 <main>
+    <div class="intro">
+        <div class="center"><h1>Squiz Camp</h1>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Wybierz ścieżkę
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Frontend</a>
+                <a class="dropdown-item" href="#">Backend</a>
+            </div>
+        </div>
+            <button type="button" class="btn btn-primary btn-signup">Zapisz się!</button><br>
+            <button type="button" class="btn btn-lernmore">Dowiedz się więcej</button>
+        </div>
+    </div>
     <!--Czego się nauczymy? -->
     <div  id="sneak-peak">
-        Czego się nauczymy?
-    </div>
+        <h2>Czego możesz się nauczyć?</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Frontend
+                        </button>
+                    </h5>
+                </div>
 
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Szukamy osób, które chcą rozwijać się w kierunku Front-End Developera posiadających podstawową znajomość: HTML, JS, CSS i Photoshop i znających pojęcia:
+                        Front-End, SCSS, BEM, cut-up i implementacja.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Backend
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Szukamy osób, które chcą rozwijać się w kierunku Back-End Developera posiadających podstawową znajomość: PHP, JS, MySQL, pracy z linią poleceń i znających pojęcia:
+                        architektura aplikacji internetowej, programowanie obiektowe, zarządzanie bazami danych.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <h2>Co będziemy robić ?</h2>
+    <p>W czasie naszej 4 tygodniowej przygody poznasz tajniki zawodu programisty.
+
+        Od poniedziałku do piątku, w godzinach od 10 do 15,
+        będziemy pracować nad dedykowanymi  projektami.
+
+        Do Twojej dyspozycji będą specjaliści na co dzień pracujący w Squiz.
+
+        Efektem naszej wspólnej pracy będą projekty
+        wykonane w całości i na każdym etapie  przez uczestników. </p>
+
+    </div>
     <!--kogo szukamy -->
     <div id="for-who">
+
         <div class="for-who">
         <h2>Kogo szukamy?</h2>
         <img src="images/who-we-seek.jpg" alt="kogo szukamy">
@@ -58,6 +107,7 @@
             </p>
             <p class="logo-Squiz">Squiz Camp</p>
         </div>
+
     </div>
     
     <div id="why-us">
@@ -78,6 +128,7 @@
         </div>
     </div>
 
+    <h2>Opinie absolwentów</h2>
     <!--kontakt -->
     
     <div id="contact">
@@ -88,6 +139,7 @@
                 <a href="https://www.facebook.com/squizpl/"><img src="images/facebook-svg.png" alt="Facebook icon"></a>
                <a href="https://goo.gl/maps/XJGKKVcY2FgLC9nC7"><img src="images/maps-ready-to-use.jpg" alt="link to Google maps"></a>
             </div>
+        <h2>Kontakt</h2>
     </div>
 </main>
 <footer>
@@ -106,5 +158,5 @@
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
